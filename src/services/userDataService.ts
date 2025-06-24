@@ -79,7 +79,7 @@ export class UserDataService {
   async getUserStats(userId: string) {
     try {
       const { data, error } = await supabase.rpc('get_user_stats', {
-        p_user_id: userId
+        user_id_param: userId
       });
 
       if (error) {
@@ -126,7 +126,7 @@ export class UserDataService {
     try {
       // Use the database function to refresh stats
       const { data, error } = await supabase.rpc('refresh_user_profile_stats', {
-        p_user_id: userId
+        user_id_param: userId
       });
 
       if (error) {
@@ -152,7 +152,7 @@ export class UserDataService {
   async updateStudyStreak(userId: string) {
     try {
       const { error } = await supabase.rpc('update_study_streak', {
-        p_user_id: userId
+        user_id_param: userId
       });
 
       if (error) {
@@ -168,7 +168,7 @@ export class UserDataService {
     // But we can still call it manually if needed
     try {
       const { error } = await supabase.rpc('increment_question_count', {
-        p_user_id: userId
+        user_id_param: userId
       });
 
       if (error) {
@@ -184,8 +184,8 @@ export class UserDataService {
     // But we can still call it manually if needed
     try {
       const { error } = await supabase.rpc('update_study_time', {
-        p_user_id: userId,
-        p_duration: duration
+        user_id_param: userId,
+        duration_param: duration
       });
 
       if (error) {
