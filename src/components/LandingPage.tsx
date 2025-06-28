@@ -415,9 +415,29 @@ const LandingPage: React.FC<LandingPageProps> = ({
             </div>
             <span className="text-xl font-bold text-accent-100">StudyAI</span>
           </div>
-          <p className="text-accent-400 dark:text-accent-500 transition-colors duration-500">
+          <p className="text-accent-400 dark:text-accent-500 transition-colors duration-500 mb-8">
             Empowering students with AI-driven learning solutions across all academic disciplines.
           </p>
+          
+          {/* Bolt Badge */}
+          <div className="flex justify-center">
+            <a
+              href="https://bolt.new"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-3 px-6 py-3 bg-accent-700 dark:bg-dark-secondary hover:bg-accent-600 dark:hover:bg-dark-surface rounded-2xl transition-all duration-300 shadow-lg hover:shadow-xl group"
+              title="Built with Bolt"
+            >
+              <img
+                src="/white_circle_360x360.png"
+                alt="Bolt"
+                className="w-8 h-8 group-hover:scale-110 transition-transform duration-300"
+              />
+              <span className="text-accent-200 dark:text-accent-300 font-medium group-hover:text-white transition-colors duration-300">
+                Built with Bolt
+              </span>
+            </a>
+          </div>
         </div>
       </footer>
     </div>
