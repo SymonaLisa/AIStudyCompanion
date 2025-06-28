@@ -22,7 +22,8 @@ import {
   Sun,
   User,
   LogOut,
-  Settings
+  Settings,
+  ExternalLink
 } from 'lucide-react';
 import { User as SupabaseUser } from '@supabase/supabase-js';
 import { UserProfile } from '../types/user';
@@ -415,9 +416,27 @@ const LandingPage: React.FC<LandingPageProps> = ({
             </div>
             <span className="text-xl font-bold text-accent-100">StudyAI</span>
           </div>
-          <p className="text-accent-400 dark:text-accent-500 transition-colors duration-500">
+          <p className="text-accent-400 dark:text-accent-500 transition-colors duration-500 mb-6">
             Empowering students with AI-driven learning solutions across all academic disciplines.
           </p>
+          
+          {/* Made with Bolt Badge */}
+          <div className="flex items-center justify-center">
+            <a
+              href="https://bolt.new"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 px-4 py-2 bg-accent-700 dark:bg-dark-surface hover:bg-accent-600 dark:hover:bg-dark-muted rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl group"
+            >
+              <div className="w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                <Zap className="w-4 h-4 text-white" />
+              </div>
+              <span className="text-accent-200 dark:text-accent-300 text-sm font-medium group-hover:text-white transition-colors">
+                Made with Bolt
+              </span>
+              <ExternalLink className="w-3 h-3 text-accent-400 dark:text-accent-500 group-hover:text-accent-200 transition-colors" />
+            </a>
+          </div>
         </div>
       </footer>
     </div>
