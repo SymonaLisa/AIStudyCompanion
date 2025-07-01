@@ -5,60 +5,60 @@ A comprehensive AI study companion application that helps students learn across 
 ## 🌟 Features
 
 ### Core Functionality
-- **AI-Powered Chat Interface**: Get instant, accurate answers to study questions with detailed explanations
-- **Multi-Subject Support**: Mathematics, Sciences, Literature, History, Computer Science, Arts, Languages, and more
-- **Document Upload**: Upload PDFs, documents, and study materials for AI analysis
-- **Vision AI Integration**: Take photos of handwritten notes, textbooks, or whiteboards for text extraction
-- **Personalized Learning**: Adaptive responses based on academic level and preferred difficulty
-- **Progress Tracking**: Monitor study sessions, question counts, and learning streaks
+- **AI-Powered Chat Interface**: Get instant, accurate answers to study questions with detailed explanations  
+- **Multi-Subject Support**: Mathematics, Sciences, Literature, History, Computer Science, Arts, Languages, and more  
+- **Document Upload**: Upload PDFs, documents, and study materials for AI analysis  
+- **Vision AI Integration**: Take photos of handwritten notes, textbooks, or whiteboards for text extraction  
+- **Personalized Learning**: Adaptive responses based on academic level and preferred difficulty  
+- **Progress Tracking**: Monitor study sessions, question counts, and learning streaks  
 
 ### User Experience
-- **Beautiful UI/UX**: Modern, responsive design with dark/light mode support
-- **Subject-Focused Sessions**: Start studying with specific subject context
-- **Follow-up Questions**: AI-generated suggestions to deepen understanding
-- **Source Citations**: All answers include credible academic sources
-- **Bookmarking**: Save important questions and answers for later review
-- **Profile Management**: Customize learning preferences and track achievements
+- **Beautiful UI/UX**: Modern, responsive design with dark/light mode support  
+- **Subject-Focused Sessions**: Start studying with specific subject context  
+- **Follow-up Questions**: AI-generated suggestions to deepen understanding  
+- **Source Citations**: All answers include credible academic sources  
+- **Bookmarking**: Save important questions and answers for later review  
+- **Profile Management**: Customize learning preferences and track achievements  
 
 ### Technical Features
-- **Real-time Chat**: Smooth, responsive messaging interface
-- **File Processing**: Support for multiple document formats
-- **Image Analysis**: Google Vision API integration for OCR
-- **Database Integration**: Supabase backend with user authentication
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Real-time Chat**: Smooth, responsive messaging interface  
+- **File Processing**: Support for multiple document formats  
+- **Image Analysis**: Google Vision API integration for OCR  
+- **Database Integration**: Supabase backend with user authentication  
+- **Responsive Design**: Works seamlessly on desktop and mobile devices  
 
 ## 🚀 Live Demo
 
-**Deployed Application**: [https://incomparable-kitsune-35d1ea.netlify.app](https://incomparable-kitsune-35d1ea.netlify.app)
+**Deployed Application**: [https://guileless-dodol-6ee36c.netlify.app](https://guileless-dodol-6ee36c.netlify.app)
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **React 18** with TypeScript
-- **Vite** for fast development and building
-- **Tailwind CSS** for styling with custom design system
-- **Lucide React** for beautiful icons
+- **React 18** with TypeScript  
+- **Vite** for fast development and building  
+- **Tailwind CSS** for styling with custom design system  
+- **Lucide React** for beautiful icons  
 
 ### Backend & Services
-- **Supabase** for database, authentication, and storage
-- **Google Gemini AI** for intelligent responses
-- **Google Vision API** for image text extraction
-- **Netlify** for deployment and hosting
+- **Supabase** for database, authentication, and storage  
+- **Google Gemini AI** for intelligent responses  
+- **Google Vision API** for image text extraction  
+- **Netlify** for deployment and hosting  
 
 ### Key Libraries
-- `@supabase/supabase-js` - Database and auth integration
-- `@google/generative-ai` - AI response generation
-- `@google-cloud/vision` - Image text extraction
-- `@tailwindcss/typography` - Rich text formatting
+- `@supabase/supabase-js` - Database and auth integration  
+- `@google/generative-ai` - AI response generation  
+- `@google-cloud/vision` - Image text extraction  
+- `@tailwindcss/typography` - Rich text formatting  
 
 ## 📋 Prerequisites
 
 Before running this project, ensure you have:
 
-- Node.js 18+ installed
-- A Supabase account and project
-- Google Cloud Platform account with Gemini AI and Vision API access
-- Environment variables configured (see setup section)
+- Node.js 18+ installed  
+- A Supabase account and project  
+- Google Cloud Platform account with Gemini AI and Vision API access  
+- Environment variables configured (see setup section)  
 
 ## ⚙️ Environment Setup
 
